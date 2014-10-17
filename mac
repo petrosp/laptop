@@ -157,7 +157,7 @@ fancy_echo "Starting Postgres ..."
   if [[ ! -d "$HOME/.rvm" ]]; then
 fancy_echo "Installing rvm, to change Ruby versions ..."
 curl -sSL https://get.rvm.io | bash -s stable
-source /Users/ukutaht/.rvm/scripts/rvm
+source /Users/petros/.rvm/scripts/rvm
 fi
 
 # if [[ ! -d "$HOME/.rbenv" ]]; then
